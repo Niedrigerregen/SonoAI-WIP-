@@ -63,6 +63,8 @@ Future Work:
 
 Disclaimer:
 
+This is my first Project with AI and i'm 14 years old at the time that i'm working on this project so the quality of my code and other stuff won't be very good
+
 I did not create the dataset required for the CNN
 
 This project is for research and educational purposes only.
