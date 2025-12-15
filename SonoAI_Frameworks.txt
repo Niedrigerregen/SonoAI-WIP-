@@ -1,0 +1,6 @@
+Frameworks and Versions Needed:
+
+Tensorflow: 2.16.0
+Python: 3.10-3.11 (technically Python 3.12 is supported too but some dependencies might lag behind)
+Pyinstaller (optional): 6.0 - 6.14
+Numpy: 1.25 or newer
