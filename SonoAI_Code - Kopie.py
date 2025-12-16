@@ -16,7 +16,7 @@ train_gen = train_datagen.flow_from_directory(
 )
 
 validation_gen = train_datagen.flow_from_directory(
-    'root_ordner_validation/',
+    'root_ordner_train/',
     target_size=(400, 270),
     batch_size=32,
     class_mode='binary',
@@ -78,6 +78,8 @@ def convolutional_layers():
     
     return model 
 
+#Ausgleichen der Klassenungleichheit im Trainingsdataset
+class_weights = {0: 1.0, 1: 1.2} #Klasse 1(tumor) wird höher gewichtet, weil 20% in die Validation geht, jedoch gilt das auch für das test dataset was eigentlich ausgeglichen ist
 
 #Early stopping um Overfitting (Überlernen) zu vermeiden
 early_stopping = tf.keras.callbacks.EarlyStopping(
