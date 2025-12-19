@@ -8,7 +8,7 @@ import os
 train_datagen = ImageDataGenerator(rescale=1./255, validation_split=0.2) #20% der Trainingsdaten werden für die Validierung verwendet
 
 train_gen = train_datagen.flow_from_directory(
-    'root_ordner_train/',       
+    r'C:\Users\Loran\Downloads\Dataset\Train',      
     target_size=(400, 270),
     batch_size=32, # Update: Batch size verdoppelt für beschleunigtes Training und Testen
     class_mode='binary', # Nur 2 klassen vorhanden also wird binary verwendet
@@ -16,7 +16,7 @@ train_gen = train_datagen.flow_from_directory(
 )
 
 validation_gen = train_datagen.flow_from_directory(
-    'root_ordner_train/',
+    r'C:\Users\Loran\Downloads\Dataset\Train',
     target_size=(400, 270),
     batch_size=32,
     class_mode='binary',
@@ -27,7 +27,7 @@ validation_gen = train_datagen.flow_from_directory(
 test_datagen = ImageDataGenerator(rescale=1./255)
 
 test_gen = test_datagen.flow_from_directory(
-    'root_ordner_test/',
+    r'C:\Users\Loran\Downloads\Dataset\Test',
     target_size=(400, 270), #Bildgröße wird von 800x540 auf 400x270 verkleinert um Rechenleistung zu sparen aber genug Details zu behalten)
     batch_size=32,
     class_mode='binary', #subset nicht notwendig da es nur zum Testen verwendet wird anders als beim gesplitteten Train dataset
@@ -39,8 +39,8 @@ test_gen = test_datagen.flow_from_directory(
 data_augmentation = tf.keras.Sequential([
     layers.RandomRotation(0.2),     #Drehung um 20%
     layers.RandomZoom(0.2),         #Zufälliger Zoom um 20%
-    layers.RandomContrast(0.2),     #Kontrastanpassung
-    layers.Normalization(0.5)       #Normalisierung der Bilder um die Trainingsstabilität zu verbessern
+    layers.RandomContrast(0.2),     #Kontrastanpassung um 20%
+    #Update: Normalisierung entfernt, da die Reskalierung bereits durchgeführt wird
 ])
 
 
