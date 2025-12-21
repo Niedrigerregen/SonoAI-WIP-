@@ -27,6 +27,7 @@ Model Details:
 - 400k Parameters
 - Batch size of 32
 - max. 1000 epochs (Early stopping)
+- Used 77 epochs until early_stopping(CPU)
 
 ----
 Techniques Used:
