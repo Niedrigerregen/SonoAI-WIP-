@@ -90,14 +90,14 @@ early_stopping = tf.keras.callbacks.EarlyStopping(
 
 #Checkpoint um das beste Modell zu speichern 
 model_checkpoint = tf.keras.callbacks.ModelCheckpoint( 
-'SonoAI.h5', 
+ 'SonoAI.keras', 
  monitor='val_loss', 
- save_best_only=True 
-) #Ein Dateipfad wird nicht benötigt da es da hin gespeichert wird wo das Skript ausgeführt wird
+ save_best_only=True
+ ) #Ein Dateipfad wird nicht benötigt da es da hin gespeichert wird wo das Skript ausgeführt wird
 
 model = convolutional_layers()
-model.fit(train_gen, epochs = 1000 , validation_data = validation_gen, callbacks=[early_stopping, model_checkpoint]) 
-#Maximal 1000 Epochen aber Early_Stopping wird vorher stoppen und Model_checkpoint wird dieses Speichern 
+model.fit(train_gen, epochs = 500, validation_data = validation_gen, callbacks=[early_stopping, model_checkpoint], class_weight=class_weights) 
+    #Maximal 1000 Epochen aber Early_Stopping wird vorher stoppen und Model_checkpoint wird dieses Speichern 
 
 #Testen des modells nach dem training
 predictions = model.predict(test_gen) #Vorhersagen für das Test dataset generieren lassen
