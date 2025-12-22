@@ -1,0 +1,193 @@
+Terminal Logs (Trained with CPU):
+
+Epoch 1/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.5237 - loss: 0.6957WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+55/55 ━━━━━━━━━━━━━━━━━━━━ 313s 6s/step - accuracy: 0.5266 - loss: 0.6940 - val_accuracy: 0.5241 - val_loss: 0.6922
+Epoch 2/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 308s 6s/step - accuracy: 0.5329 - loss: 0.6923 - val_accuracy: 0.5241 - val_loss: 0.6959
+Epoch 3/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 300s 5s/step - accuracy: 0.5209 - loss: 0.6919 - val_accuracy: 0.5241 - val_loss: 0.6928
+Epoch 4/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.5306 - loss: 0.6915 - val_accuracy: 0.4805 - val_loss: 0.6926
+Epoch 5/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.5460 - loss: 0.6873WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.5392 - loss: 0.6890 - val_accuracy: 0.5471 - val_loss: 0.6888
+Epoch 6/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 298s 5s/step - accuracy: 0.5524 - loss: 0.6847 - val_accuracy: 0.5402 - val_loss: 0.6905
+Epoch 7/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.5599 - loss: 0.6850WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.5610 - loss: 0.6827 - val_accuracy: 0.5425 - val_loss: 0.6849
+Epoch 8/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.5780 - loss: 0.6773WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.5770 - loss: 0.6731 - val_accuracy: 0.5977 - val_loss: 0.6630
+Epoch 9/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 301s 5s/step - accuracy: 0.5947 - loss: 0.6686 - val_accuracy: 0.5425 - val_loss: 0.6783
+Epoch 10/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.6064 - loss: 0.6592WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.6016 - loss: 0.6595 - val_accuracy: 0.6460 - val_loss: 0.6502
+Epoch 11/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.6050 - loss: 0.6605 - val_accuracy: 0.5425 - val_loss: 0.6770
+Epoch 12/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.6217 - loss: 0.6617WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 298s 5s/step - accuracy: 0.6445 - loss: 0.6463 - val_accuracy: 0.6851 - val_loss: 0.6241
+Epoch 13/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.6623 - loss: 0.6180WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 300s 5s/step - accuracy: 0.6623 - loss: 0.6264 - val_accuracy: 0.7172 - val_loss: 0.5991
+Epoch 14/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.6968 - loss: 0.6010WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 300s 5s/step - accuracy: 0.7001 - loss: 0.5986 - val_accuracy: 0.7080 - val_loss: 0.5883
+Epoch 15/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.6955 - loss: 0.5912 - val_accuracy: 0.6805 - val_loss: 0.6014
+Epoch 16/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.6883 - loss: 0.5993WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 298s 5s/step - accuracy: 0.6920 - loss: 0.5941 - val_accuracy: 0.7609 - val_loss: 0.5415
+Epoch 17/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7270 - loss: 0.5665 - val_accuracy: 0.6782 - val_loss: 0.6069
+Epoch 18/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7264 - loss: 0.5578 - val_accuracy: 0.7379 - val_loss: 0.5621
+Epoch 19/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7413 - loss: 0.5558 - val_accuracy: 0.7241 - val_loss: 0.5488
+Epoch 20/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7310 - loss: 0.5529 - val_accuracy: 0.7402 - val_loss: 0.5440
+Epoch 21/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.7425 - loss: 0.5470WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 301s 5s/step - accuracy: 0.7596 - loss: 0.5241 - val_accuracy: 0.7517 - val_loss: 0.5253
+Epoch 22/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.7694 - loss: 0.5171WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 298s 5s/step - accuracy: 0.7699 - loss: 0.5115 - val_accuracy: 0.7724 - val_loss: 0.5125
+Epoch 23/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 298s 5s/step - accuracy: 0.7733 - loss: 0.5034 - val_accuracy: 0.7609 - val_loss: 0.5227
+Epoch 24/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.7539 - loss: 0.5319WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 298s 5s/step - accuracy: 0.7436 - loss: 0.5266 - val_accuracy: 0.7747 - val_loss: 0.5065
+Epoch 25/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.7505 - loss: 0.5279WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7665 - loss: 0.5135 - val_accuracy: 0.7862 - val_loss: 0.4868
+Epoch 26/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 300s 5s/step - accuracy: 0.7733 - loss: 0.4985 - val_accuracy: 0.7632 - val_loss: 0.5068
+Epoch 27/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 300s 5s/step - accuracy: 0.7848 - loss: 0.4849 - val_accuracy: 0.7632 - val_loss: 0.5212
+Epoch 28/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.7866 - loss: 0.4709WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 298s 5s/step - accuracy: 0.7785 - loss: 0.4845 - val_accuracy: 0.7839 - val_loss: 0.4669
+Epoch 29/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7762 - loss: 0.5015 - val_accuracy: 0.7471 - val_loss: 0.5050
+Epoch 30/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.7869 - loss: 0.4787WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7739 - loss: 0.4891 - val_accuracy: 0.8115 - val_loss: 0.4546
+Epoch 31/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7756 - loss: 0.5019 - val_accuracy: 0.7770 - val_loss: 0.4833
+Epoch 32/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7728 - loss: 0.4973 - val_accuracy: 0.7977 - val_loss: 0.4948
+Epoch 33/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 302s 5s/step - accuracy: 0.7934 - loss: 0.4733 - val_accuracy: 0.7632 - val_loss: 0.5348
+Epoch 34/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7911 - loss: 0.4686 - val_accuracy: 0.8023 - val_loss: 0.4637
+Epoch 35/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 298s 5s/step - accuracy: 0.7934 - loss: 0.4668 - val_accuracy: 0.7885 - val_loss: 0.4884
+Epoch 36/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7853 - loss: 0.4788 - val_accuracy: 0.7977 - val_loss: 0.4585
+Epoch 37/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.7979 - loss: 0.4463 - val_accuracy: 0.7816 - val_loss: 0.4982
+Epoch 38/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 308s 6s/step - accuracy: 0.7888 - loss: 0.4686 - val_accuracy: 0.7287 - val_loss: 0.5640
+Epoch 39/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.7875 - loss: 0.4701WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+55/55 ━━━━━━━━━━━━━━━━━━━━ 305s 6s/step - accuracy: 0.8002 - loss: 0.4563 - val_accuracy: 0.7977 - val_loss: 0.4506
+Epoch 40/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 301s 5s/step - accuracy: 0.8008 - loss: 0.4653 - val_accuracy: 0.7954 - val_loss: 0.4747
+Epoch 41/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 299s 5s/step - accuracy: 0.8014 - loss: 0.4480 - val_accuracy: 0.7839 - val_loss: 0.4798
+Epoch 42/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 301s 5s/step - accuracy: 0.8048 - loss: 0.4482 - val_accuracy: 0.7839 - val_loss: 0.4870
+Epoch 43/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 302s 5s/step - accuracy: 0.7968 - loss: 0.4556 - val_accuracy: 0.7517 - val_loss: 0.5411
+Epoch 44/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 302s 5s/step - accuracy: 0.8054 - loss: 0.4373 - val_accuracy: 0.7609 - val_loss: 0.5611
+Epoch 45/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 302s 5s/step - accuracy: 0.7796 - loss: 0.4715 - val_accuracy: 0.8046 - val_loss: 0.4708
+Epoch 46/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 306s 6s/step - accuracy: 0.8025 - loss: 0.4445 - val_accuracy: 0.7839 - val_loss: 0.4774
+Epoch 47/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 378s 7s/step - accuracy: 0.8014 - loss: 0.4484 - val_accuracy: 0.8023 - val_loss: 0.4738
+Epoch 48/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 328s 6s/step - accuracy: 0.7739 - loss: 0.4882 - val_accuracy: 0.7839 - val_loss: 0.4853
+Epoch 49/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 326s 6s/step - accuracy: 0.8042 - loss: 0.4340 - val_accuracy: 0.7195 - val_loss: 0.6040
+Epoch 50/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 324s 6s/step - accuracy: 0.8157 - loss: 0.4326 - val_accuracy: 0.7862 - val_loss: 0.4826
+Epoch 51/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 322s 6s/step - accuracy: 0.7979 - loss: 0.4344 - val_accuracy: 0.7816 - val_loss: 0.4834
+Epoch 52/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 322s 6s/step - accuracy: 0.7985 - loss: 0.4396 - val_accuracy: 0.7885 - val_loss: 0.4699
+Epoch 53/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 322s 6s/step - accuracy: 0.8025 - loss: 0.4356 - val_accuracy: 0.7793 - val_loss: 0.4843
+Epoch 54/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 323s 6s/step - accuracy: 0.8082 - loss: 0.4320 - val_accuracy: 0.7862 - val_loss: 0.4770
+Epoch 55/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 324s 6s/step - accuracy: 0.8071 - loss: 0.4302 - val_accuracy: 0.7632 - val_loss: 0.5272
+Epoch 56/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 327s 6s/step - accuracy: 0.8122 - loss: 0.4188 - val_accuracy: 0.7839 - val_loss: 0.5205
+Epoch 57/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 323s 6s/step - accuracy: 0.8048 - loss: 0.4326 - val_accuracy: 0.7770 - val_loss: 0.4832
+Epoch 58/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 323s 6s/step - accuracy: 0.8128 - loss: 0.4298 - val_accuracy: 0.7724 - val_loss: 0.5017
+Epoch 59/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 356s 6s/step - accuracy: 0.8094 - loss: 0.4260 - val_accuracy: 0.7862 - val_loss: 0.5151
+Epoch 60/1000
+Epoch 58/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 323s 6s/step - accuracy: 0.8128 - loss: 0.4298 - val_accuracy: 0.7724 - val_loss: 0.5017
+Epoch 59/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 356s 6s/step - accuracy: 0.8094 - loss: 0.4260 - val_accuracy: 0.7862 - val_loss: 0.5151
+Epoch 60/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 493s 9s/step - accuracy: 0.8065 - loss: 0.4180 - val_accuracy: 0.7931 - val_loss: 0.4872
+Epoch 61/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 363s 7s/step - accuracy: 0.8014 - loss: 0.4268 - val_accuracy: 0.7770 - val_loss: 0.5006
+Epoch 62/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 391s 7s/step - accuracy: 0.8111 - loss: 0.4292 - val_accuracy: 0.7862 - val_loss: 0.4900
+Epoch 63/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 329s 6s/step - accuracy: 0.8025 - loss: 0.4319 - val_accuracy: 0.7563 - val_loss: 0.5194
+Epoch 64/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 382s 7s/step - accuracy: 0.8100 - loss: 0.4330 - val_accuracy: 0.7816 - val_loss: 0.4925
+Epoch 65/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 349s 6s/step - accuracy: 0.8082 - loss: 0.4287 - val_accuracy: 0.7563 - val_loss: 0.5394
+Epoch 66/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 319s 6s/step - accuracy: 0.8060 - loss: 0.4164 - val_accuracy: 0.6667 - val_loss: 0.5848
+Epoch 67/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 310s 6s/step - accuracy: 0.8145 - loss: 0.4193 - val_accuracy: 0.7793 - val_loss: 0.5014
+Epoch 68/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 307s 6s/step - accuracy: 0.8054 - loss: 0.4194 - val_accuracy: 0.7655 - val_loss: 0.5283
+Epoch 69/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 307s 6s/step - accuracy: 0.8214 - loss: 0.4115 - val_accuracy: 0.7149 - val_loss: 0.5737
+Epoch 70/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 309s 6s/step - accuracy: 0.8060 - loss: 0.4213 - val_accuracy: 0.7724 - val_loss: 0.4835
+Epoch 71/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 309s 6s/step - accuracy: 0.8203 - loss: 0.4059 - val_accuracy: 0.7655 - val_loss: 0.5268
+Epoch 72/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 305s 6s/step - accuracy: 0.8060 - loss: 0.4207 - val_accuracy: 0.7609 - val_loss: 0.5062
+Epoch 73/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 308s 6s/step - accuracy: 0.8191 - loss: 0.4146 - val_accuracy: 0.7333 - val_loss: 0.5337
+Epoch 74/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 307s 6s/step - accuracy: 0.8174 - loss: 0.4114 - val_accuracy: 0.7448 - val_loss: 0.5134
+Epoch 75/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 306s 6s/step - accuracy: 0.8208 - loss: 0.4029 - val_accuracy: 0.7310 - val_loss: 0.5343
+ - val_loss: 0.5242
+Epoch 83/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 305s 6s/step - accuracy: 0.8140 - loss: 0.4127 - val_accuracy: 0.7678 - val_loss: 0.5334
+Epoch 84/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 305s 6s/step - accuracy: 0.8140 - loss: 0.4066 - val_accuracy: 0.7402 - val_loss: 0.5679
+Epoch 85/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 304s 6s/step - accuracy: 0.8140 - loss: 0.4085 - val_accuracy: 0.7471 - val_loss: 0.5095
+Epoch 86/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 304s 6s/step - accuracy: 0.8220 - loss: 0.4008 - val_accuracy: 0.7655 - val_loss: 0.5071
+Epoch 87/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 308s 6s/step - accuracy: 0.8180 - loss: 0.3986 - val_accuracy: 0.7655 - val_loss: 0.5240
+Epoch 88/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 503s 9s/step - accuracy: 0.8220 - loss: 0.3975 - val_accuracy: 0.7379 - val_loss: 0.54060.4248
+Epoch 89/1000
+55/55 ━━━━━━━━━━━━━━━━━━━━ 631s 12s/step - accuracy: 0.8168 - loss: 0.4011 - val_accuracy: 0.7563 - val_loss: 0.5060
+7/7 ━━━━━━━━━━━━━━━━━━━━ 15s 2s/step
+Anzahl der fehlerhaften Vorhersagen: 33 von 200
+Testaccuracy: 83.50%
+Confusion Matrix:[[ 67  33]
+ [  0 100]]
