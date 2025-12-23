@@ -4,19 +4,25 @@ SonoAI
 A TensorFlow and Keras-based model for detecting fetal brain tumors in ultrasound images.
 
 ----
-Overview:
+Overview
 ----
 SonoAI is an experimental deep learning project exploring whether Convolutional Neural Networks (CNNs) can effectively learn from unevenly distributed datasets in a highly complex medical imaging domain — fetal brain tumor detection.
 
 This project aims to push the limits of CNN generalization and augmentation strategies when data scarcity and imbalance are major challenges.
 
 ----
-
+Requirements for recreating
+----
+- Python 3.10 - 3.12
+- A CUDA(basically just Nvidia) supporting GPU(for GPU training)
+- This [Dataset](https://www.kaggle.com/datasets/orvile/ultrasound-fetus-dataset) or any other medical Dataset
+----
 Project Goals
-	* Investigate the performance of CNNs on imbalanced medical datasets.
-	* Explore data augmentation and regularization techniques to improve generalization.
-	* Evaluate how model architecture depth and callback strategies affect training stability.
-	* Assess whether meaningful predictions can still emerge from limited, noisy ultrasound data.
+----
+- Investigate the performance of CNNs on imbalanced medical datasets.
+- Explore data augmentation and regularization techniques to improve generalization.
+- Evaluate how model architecture depth and callback strategies affect training stability.
+- Assess whether meaningful predictions can still emerge from limited, noisy ultrasound data.
 
 ----
 
