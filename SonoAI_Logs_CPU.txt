@@ -1,4 +1,4 @@
-Terminal Logs (Trained with CPU):
+Terminal Logs h5 file (Trained with CPU):
 
 Epoch 1/1000
 55/55 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - accuracy: 0.5237 - loss: 0.6957WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 

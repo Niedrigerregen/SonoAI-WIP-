@@ -84,7 +84,7 @@ class_weights = {0: 1.0, 1: 1.2} #Klasse 1(tumor) wird höher gewichtet, weil 20
 #Early stopping um Overfitting (Überlernen) zu vermeiden
 early_stopping = tf.keras.callbacks.EarlyStopping(
     monitor='val_loss', 
-    patience=50, # wenn sich der CNN durch Validierungsverlust für 50 Epochen nicht verbessert wird das Training gestoppt
+    patience=20, # wenn sich der CNN durch Validierungsverlust für 50 Epochen nicht verbessert wird das Training gestoppt
     restore_best_weights=True
 )
 
