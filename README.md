@@ -25,13 +25,13 @@ Project Goals
 - Assess whether meaningful predictions can still emerge from limited, noisy ultrasound data.
 
 ----
-
 Model Details:
 ----
 - Frameworks: TensorFlow & Keras
 - Core Model: Custom CNN architecture with multiple convolutional and pooling layers
 - 400k Parameters
 - Batch size of 32
+- 128 filters max.
 - max. 1000 epochs (Early stopping)
 - Used ~100 epochs until early_stopping(CPU)
 
@@ -49,7 +49,9 @@ Techniques Used:
 Results & Observations:
 ----
 	* The model demonstrates surprisingly good learning capability even with such data.
-	* Heavy augmentation and careful tuning are essential to avoid overfitting.
+	* with a testaccuracy of ~ 80% - 85% it's far from being good enough to be used in medical contexts
+	* Heavy augmentation, a fairly big droputrate and careful tuning are essential to avoid overfitting.
+	*
 
 ----
 Future Work:
@@ -61,7 +63,7 @@ Future Work:
 ----
 Disclaimer:
 ----
-This is my first Project with AI and I'm 14 years old at the time that I'm working on this project so the quality of my code and other stuff won't be very good.
+This is my first Project working with AI therefore results won't be very good
 
 I did not create the dataset required for the CNN.
 
